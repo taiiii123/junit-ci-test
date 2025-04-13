@@ -27,4 +27,11 @@ class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(2, calc.add(2, 0), "2 + 0 は 2 のはず");
     }
+
+    @Test
+    @DisplayName("これはわざと失敗するテストです")
+    void testFailure() {
+        Calculator calc = new Calculator();
+        assertEquals(999, calc.add(2, 3), "これは失敗するはずのテストです");
+    }
 }
