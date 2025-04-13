@@ -27,5 +27,4 @@ class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(2, calc.add(2, 0), "2 + 0 は 2 のはず");
     }
-
 }
